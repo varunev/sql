@@ -1,0 +1,101 @@
+ID,Duration,Course
+S22068,139,Julia Programming
+S22079,349,Pro Data Science
+S22057,108,Python for Everyone
+S22065,256,Clustering
+S22069,89,Regression
+S22096,69,Core Data Science
+S22026,338,Natural Language Processing
+S22018,71,Julia Programming
+S22001,41,SQL Fundamentals
+S22019,118,Matplotlib Essentials
+S22038,113,Placement 
+S22021,226,R Programming
+S22014,156,R Programming
+S22061,211,Pro Data Science
+S22044,317,Python for Data Science
+S22018,334,Natural Language Processing
+S22051,86,Clustering
+S22019,185,Seaborn
+S22058,131,Matplotlib Essentials
+S22033,335,Data Visualization
+S22039,73,Python for Everyone
+S22028,45,Python for Data Science
+S22060,327,Matplotlib Essentials
+S22039,31,Clustering
+S22068,106,Pro Data Science
+S22001,261,Matplotlib Essentials
+S22011,268,Python for Everyone
+S22074,127,Placement 
+S22014,184,Python for Everyone
+S22062,82,Regression
+S22031,149,Python for Everyone
+S22036,149,Deep Learning
+S22098,237,Matplotlib Essentials
+S22020,63,Natural Language Processing
+S22059,193,Data Visualization
+S22062,308,R Programming
+S22008,273,Python for Data Science
+S22017,237,Python for Everyone
+S22054,281,Data Visualization
+S22077,57,Python for Data Science
+S22074,284,R Programming
+S22055,267,Core Data Science
+S22014,358,Seaborn
+S22055,357,Regression
+S22009,81,Deep Learning
+S22084,243,Data Visualization
+S22088,99,Python for Data Science
+S22036,265,Data Visualization
+S22009,39,Julia Programming
+S22087,119,Julia Programming
+S22002,238,Natural Language Processing
+S22070,264,Regression
+S22089,104,Python for Everyone
+S22013,69,Core Data Science
+S22046,173,Natural Language Processing
+S22016,103,Julia Programming
+S22054,319,Feature Engineering
+S22084,31,Classification
+S22007,251,SQL Fundamentals
+S22041,195,Seaborn
+S22030,265,Python Backend Developer
+S22068,273,Python for Data Science
+S22072,280,Python Backend Developer
+S22034,260,Python for Data Science
+S22067,266,Natural Language Processing
+S22090,299,Regression
+S22027,265,Powerful Pandas
+S22086,245,Classification
+S22009,234,Powerful Pandas
+S22014,137,Matplotlib Essentials
+S22026,204,Julia Programming
+S22071,227,Julia Programming
+S22081,133,Powerful Pandas
+S22079,283,Data Visualization
+S22074,324,Core Data Science
+S22057,53,Python for Everyone
+S22079,66,R Programming
+S22093,44,SQL Fundamentals
+S22067,353,Powerful Pandas
+S22016,310,Python for Data Science
+S22003,185,Core Data Science
+S22098,273,Regression
+S22061,48,Recommendation System
+S22083,177,Feature Engineering
+S22060,81,Clustering
+S22083,38,Matplotlib Essentials
+S22017,253,Python Backend Developer
+S22028,340,Julia Programming
+S22051,198,Python Backend Developer
+S22079,157,Placement 
+S22007,324,Feature Engineering
+S22028,352,Feature Engineering
+S22046,32,Clustering
+S22085,76,Placement 
+S22089,323,Regression
+S22018,79,SQL Fundamentals
+S22008,173,Data Visualization
+S22008,97,Data Visualization
+S22007,215,Recommendation System
+S22030,103,Julia Programming

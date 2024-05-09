@@ -1,0 +1,2 @@
+-- select "car","origin" from cars
+select "car",'origin' from cars order by origin

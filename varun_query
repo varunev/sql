@@ -1,0 +1,21 @@
+-- select * from cars
+-- select "car","origin","mpg" from cars
+-- select distinct "origin" from cars
+-- select "car" from cars limit 5
+-- select "car" from cars order by cars
+-- select "car","mpg","cylinder","origin" from cars order by "origin","cylinder"
+-- select "car","mpg","cylinder","origin" from cars order by 2,3
+-- select "car","mpg","cylinder","origin" from cars order by "cylinder" asc
+-- select "car","mpg","cylinder","origin" from cars order by "cylinder" asc, 3 desc
+-- select "car","mpg","cylinder","origin","weight" from cars where "car"= 'ford torino'
+-- select "car","mpg","cylinder","origin","weight" from cars where "cylinder">6
+-- select "car","mpg","cylinder","origin","weight" from cars where "cylinder"<>8
+-- select "car","mpg","cylinder","origin","weight" from cars where "cylinder" between 3 and 4
+-- select "car","mpg","cylinder","origin","weight" from cars where "cylinder" is null
+-- select "car","mpg","cylinder","origin","weight" from cars where "cylinder"=8 and "mpg"=15
+-- select "car","mpg","cylinder","origin","weight" from cars where "mpg"=15 or "mpg"=17
+-- select "car","mpg","cylinder","origin","weight" from cars where "mpg"=15 or "mpg"=17 and "cylinder"=6
+-- select "car","mpg","cylinder","origin","weight" from cars where ("mpg"=15 or "mpg"=17)and "cylinder"=6
+-- select "car","mpg","cylinder","weight" from cars where "mpg" in (15,16,17)
+-- select "car","cylinder","mpg" from cars where  not "mpg"=17
+-- select "car","mpg","origin" from cars where "car" like 'Ford%'
