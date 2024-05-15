@@ -19,3 +19,4 @@
 -- select "car","mpg","cylinder","weight" from cars where "mpg" in (15,16,17)
 -- select "car","cylinder","mpg" from cars where  not "mpg"=17
 -- select "car","mpg","origin" from cars where "car" like 'Ford%'
+

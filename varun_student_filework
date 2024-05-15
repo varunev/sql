@@ -1,0 +1,30 @@
+-- select * from student
+-- select "name","joining date" from student where "ending date" = '2022-07-25'
+--  select "name","joining date" from student where "ending date" >'2022-07-25'
+-- select "name","joining date" from student where "ending date" between '2022-09-3'and '2024-08-16'
+-- select * from student where "joining date"<='2022-04-25'and "joining date" <='2023-08-16'
+-- select "name", "joining date" from student where extract (year from "end date") = 2020
+-- select "name", "joining date" from students where extract (month from "joining date")=8
+-- SELECTF "name","joining date" FROM students WHERE EXTRACT (YEAR FROM"ending date") = 2023
+-- select students."name", course."course", course."duration" from students , courses
+
+-- select * from student
+-- select *from basics limit 100 
+-- select *from rating limit 100
+-- select "primarytitle","averagerating","numvotes"
+-- from basics, rating where basics."tconst"=rating."tconst"
+-- limit 100
+
+-- select * from student
+-- select * from basics limit 100
+-- select * from rating limit 100
+-- select "primarytitle", "genres","averagerating","numvotes"
+-- from basics,rating where basics."tconst"= rating."tconst"
+-- limit 100 
+
+-- select * from basics limit 100
+-- select * from rating limit 100
+-- select "primarytitle", "genres","averagerating","numvotes"
+-- from basics left join rating on basics."tconst"=rating."tconst"
+-- limit 100
+

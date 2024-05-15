@@ -33,3 +33,32 @@
 -- select "car",sqrt("mpg") from cars
 -- select "car","mpg" *pi() from cars
 -- select "car",sin(radians("mpg")),tan(radians("mpg")),tan(radians("mpg")) from cars
+-- select "origin",case when "origin"= 'us' then 1 when "origin"='japan' then 2 when "origin"='europe' then 3  end as "originmap" from cars
+-- select replace("origin",'us','usa') as origin from cars
+-- select "car"||'   :'|| "weight" from cars
+-- select "car" ||':'|| "weight" from cars
+-- select "car",  "weight"*1000 as "weight(gram)" from cars
+-- select avg("weight") as avg_weight from cars
+-- select count ("weight") as total_rows from cars
+-- select max("weight") as max_weight from cars
+-- select min("weight") as min_weight from cars
+-- select sum("weight") as min_weight from cars
+-- select "car", "weight"  from cars where "weight"= (select min("weight")from cars)
+-- select count("origin") from cars
+-- select count(distinct("origin")) from cars
+-- select count(*) as items, 
+-- min("weigth") as min_weight,
+-- max("weigth") as max_weight,
+-- avg("weigth") as avg_weight, 
+-- from cars
+-- select "origin", count * from cars group by "origin"
+-- select "car", count * from cars group by "car" having count* >1
+-- select "car", count * from cars where "origin"='japan' group by "car" having count*>1
+-- select "car", count * as"count" from cars group by "car" having count*>1 order by "count" desc
+
+-- select distinct ("cylinder") from cars where "weight"<2000
+
+-- select "origin","car","cylinder" from cars where "cylinder" in (select distinct("cylinder") from cars where "weight"<2000) order by "weight" desc
+-- select "car","cylinder cars where "cylinder" in (select distinct("cylinder")from cars where "weight" in(select min ("weight")from cars where "origin"='japan')) order by "weight" desc
+
+with cte_cars as (select "car", "weight, "origin from cars where "origin"=''
