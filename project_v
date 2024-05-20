@@ -1,0 +1,43 @@
+﻿-- QNO 12
+select 
+ sum(salary) as total_salary,
+min(salary) as min_salary,
+max(salary) as max_salary,
+avg(salary) as avg_salary
+from project_sql where dept_id=50
+
+-- QNO11
+select dept , avg(salary) as avg_salary from project_sql where dept<> 'programmer' group by dept
+
+-- QNO13
+select dept_id, dept,max(salary)as max_salary from project_sql group by dept_id, dept having max(salary)>=4000;
+ 
+--  QNO14
+ select dept_id,avg(salary) as avg_salary from project_sql group by dept_id having count(project_sql_id)>10;
+
+-- QNO 18
+select efname,elname,salary 
+from project_sql 
+where dept='AC_MGR'
+
+-- QNO15
+select "efname","elname","salary" 
+from project_sql 
+where "salary" >(select "salary" from project_sql
+where "elname"='Bull')
+
+-- QNO19
+select efname,elname,salary
+from project_sql
+where salary>(select avg(salary)from project_sql)
+
+-- QNO20
+select efname,elname,salary
+from project_sql e1
+where salary =(select min(salary) from project_sql e2 where e2.dept=e1.dept);
+
+-- QNO16
+select efname,elname
+from project_sql 
+where dept='IT_PROG' 
+			   
